@@ -14,7 +14,7 @@ public class EditfieldClass extends AppCompatActivity {
         setContentView(R.layout.to_do_layout);
     }
     public void saveButtonClicked (View v){
-        String messageText = ((EditText)findViewById(R.id.message)).getText().toString();
+        String messageText = ((EditText)findViewById(R.id.msg)).getText().toString();
         if (messageText.equals("")){
 
         }

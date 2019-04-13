@@ -33,8 +33,6 @@
         android:src="@drawable/add_on"
 
 
-        >
-
-    </android.support.design.widget.FloatingActionButton>
+        android:layout_alignParentEnd="true" />
 
 </android.support.constraint.ConstraintLayout>

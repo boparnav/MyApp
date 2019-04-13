@@ -25,7 +25,10 @@ public class EditMessageClass extends AppCompatActivity {
 
     }
       public void saveButtonClicked(View v){
-        String changedMessageText = ((EditText)findViewById(R.id.message)).getText().toString();
+
+        EditText some = (EditText) findViewById(R.id.msg);
+
+        String changedMessageText = some.getText().toString();
         Intent intent = new Intent();
         intent.putExtra(intent_constant.INTENT_CHANGED_MESSAGE,changedMessageText);
         intent.putExtra(intent_constant.INTENT_ITEM_POSITION,position);

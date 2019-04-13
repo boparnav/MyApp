@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyToDoListApp</string>
+    <string name="save">SAVE</string>
+    <string name="add_items_here">Add Items Here</string>
 </resources>
